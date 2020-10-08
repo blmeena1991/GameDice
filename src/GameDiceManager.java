@@ -24,8 +24,9 @@ public class GameDiceManager {
     private static void runGame() {
         boolean initComplete = false;
         Random rn = new Random();
-        int playerCounter = rn.nextInt(playerList.size()) + 1;
+        int playerCounter = rn.nextInt(playerList.size());
         currentPlayer = playerList.get(playerCounter);
+        System.out.println("The Player Name, Who will start the game:"+ currentPlayer.getName());
         game: while(!initComplete){
             PlayerRankBoard.printRankBoard();
             if(currentPlayer.isGameOver()){

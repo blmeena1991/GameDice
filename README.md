@@ -1,5 +1,5 @@
 # GameDice
-Online multiplayer Game Dice
+Online multi player Game Dice
 
 REQUIREMENTS
 ------------
@@ -8,6 +8,9 @@ The project has the following dependencies:
 
 
 ### Build and run
+
+Clone the project on local machine using the bellow command 
+* git clone gitclonelink
 
 #####Open the terminal and run the commands
  * javac GameDiceManager.java
